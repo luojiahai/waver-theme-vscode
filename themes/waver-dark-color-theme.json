@@ -248,7 +248,7 @@
         "entity.name"
       ],
       "settings": {
-        "foreground": "#bdac6a"
+        "foreground": "#b8a865"
       }
     },
     {
@@ -269,7 +269,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#bdac6a"
+        "foreground": "#b8a865"
       }
     },
     {
@@ -292,7 +292,7 @@
         "constant.language.import-export-all.ts"
       ],
       "settings": {
-        "foreground": "#63a6bf"
+        "foreground": "#65a67d"
       }
     },
     {
@@ -489,7 +489,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#63a6bf"
+        "foreground": "#65a67d"
       }
     },
     {
@@ -667,7 +667,7 @@
         "entity.other.attribute-name.html.vue"
       ],
       "settings": {
-        "foreground": "#bdac6a"
+        "foreground": "#b8a865"
       }
     },
     {
