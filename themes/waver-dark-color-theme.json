@@ -313,7 +313,7 @@
         "attribute.value"
       ],
       "settings": {
-        "foreground": "#aeb3b9"
+        "foreground": "#c9ccd0"
       }
     },
     {
@@ -321,7 +321,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#aeb3b977"
+        "foreground": "#c9ccd077"
       }
     },
     {
@@ -437,7 +437,7 @@
     {
       "scope": "string variable",
       "settings": {
-        "foreground": "#aeb3b9"
+        "foreground": "#c9ccd0"
       }
     },
     {
@@ -457,7 +457,7 @@
         "string.regexp string.regexp.arbitrary-repetition"
       ],
       "settings": {
-        "foreground": "#aeb3b9"
+        "foreground": "#c9ccd0"
       }
     },
     {
@@ -640,7 +640,7 @@
         "punctuation.definition.string.end.markdown"
       ],
       "settings": {
-        "foreground": "#aeb3b9"
+        "foreground": "#c9ccd0"
       }
     },
     {
