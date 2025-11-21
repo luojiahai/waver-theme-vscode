@@ -388,7 +388,7 @@
         "meta.var.expr.ts"
       ],
       "settings": {
-        "foreground": "#2982a3"
+        "foreground": "#ab5c59"
       }
     },
     {
@@ -479,7 +479,7 @@
         "number"
       ],
       "settings": {
-        "foreground": "#2982a3"
+        "foreground": "#29a39f"
       }
     },
     {
@@ -496,7 +496,7 @@
         "constant.language"
       ],
       "settings": {
-        "foreground": "#2982a3"
+        "foreground": "#29a39f"
       }
     },
     {
