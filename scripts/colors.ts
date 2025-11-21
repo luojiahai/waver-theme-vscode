@@ -137,11 +137,11 @@ export const WaverThemes = {
   regex: ["#c4704f", "#ab5e3f"],
 
   // colors
-  green: ["#2ac864", "#1fa251"],
+  green: ["#88cc24", "#67a70e"],
   cyan: ["#14c4bf", "#03a29f"],
-  blue: ["#6188ff", "#4b6bd4"],
+  blue: ["#00aeec", "#0087bd"],
   red: ["#f85a54", "#d1403e"],
   orange: ["#ff7f24", "#d66011"],
-  yellow: ["#ffb027", "#db8700"],
+  yellow: ["#ffcc00", "#cca000"],
   magenta: ["#ee5ddb", "#cb41bb"],
 } satisfies Record<string, [string, string] | string>;
