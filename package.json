@@ -46,6 +46,7 @@
     "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
+    "@luojiahai/waver": "^0.0.4",
     "@types/color": "^4.2.0",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.10.1",
