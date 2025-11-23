@@ -9,7 +9,6 @@ import {
   pink,
   lightblue,
   cyan,
-  magenta,
   lightgreen,
   lightyellow,
 } from "waver-color";
