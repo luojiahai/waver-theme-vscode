@@ -1,16 +1,16 @@
 {
   "publisher": "luojiahai",
-  "name": "vscode-theme-waver",
-  "displayName": "Waver VSCode Theme",
-  "description": "todo",
-  "version": "0.0.12",
+  "name": "waver-theme",
+  "displayName": "Waver Theme",
+  "description": "Waver theme for VSCode",
+  "version": "0.0.14",
   "packageManager": "pnpm@10.20.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luojiahai/vscode-theme-waver.git"
+    "url": "https://github.com/luojiahai/waver-vscode-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/luojiahai/vscode-theme-waver/issues"
+    "url": "https://github.com/luojiahai/waver-vscode-theme/issues"
   },
   "keywords": [
     "theme",

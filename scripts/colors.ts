@@ -9,7 +9,7 @@ import {
   pink,
   lightblue,
   cyan,
-  lightgreen,
+  magenta,
 } from "waver-color";
 
 export const colors = {
@@ -27,15 +27,12 @@ export const colors = {
 
 export const WaverThemes = {
   primary: [lightblue.get("5d").hex(), lightblue.get("7d").hex()],
-
-  foreground: ["#dbd7caee", "#393a34"],
-  activeForeground: ["#bfbaaa", "#4e4f47"],
-  secondaryForeground: ["#dedcd590", "#393a3490"],
-
-  ignored: ["#dedcd550", "#393a3450"],
-  faded: ["#dedcd510", "#393a3410"],
-  border: ["#191919", "#f0f0f0"],
-
+  foreground: ["#ccd6dbee", "#35393b"],
+  activeForeground: ["#aab8bf", "#aab8bf"],
+  secondaryForeground: ["#d5dbde90", "#35393b90"],
+  ignored: ["#d5dbde50", "#35393b50"],
+  faded: ["#d5dbde10", "#35393b10"],
+  border: ["#141414", "#ebebeb"],
   background: ["#0f0f0f", "#ffffff"],
   activeBackground: ["#161616", "#f7f7f7"],
   selectionBackground: ["#eeeeee24", "#22222224"],
@@ -43,23 +40,23 @@ export const WaverThemes = {
   selectionBackgroundInActive: ["#eeeeee16", "#22222216"],
 
   comment: ["#808080dd", "#aaaaaaff"],
-  string: [gray.get("2").hex(), gray.get("5").hex()],
+  string: [gray.get("3").hex(), gray.get("6").hex()],
   variable: [pink.get("6d").hex(), pink.get("7d").hex()],
   keyword: [lightblue.get("6d").hex(), lightblue.get("7d").hex()],
-  number: [lightgreen.get("6d").hex(), lightgreen.get("7d").hex()],
-  boolean: [cyan.get("6d").hex(), cyan.get("7d").hex()],
-  operator: [yellow.get("6d").hex(), yellow.get("7d").hex()],
-  function: [yellow.get("6d").hex(), yellow.get("7d").hex()],
-  constant: [lightgreen.get("6d").hex(), lightgreen.get("7d").hex()],
-  class: [green.get("6dd").hex(), green.get("7dd").hex()],
-  interface: [green.get("6dd").hex(), green.get("7dd").hex()],
-  type: [green.get("6dd").hex(), green.get("7dd").hex()],
-  builtin: [purple.get("6d").hex(), blue.get("7d").hex()],
+  number: [green.get("6dd").hex(), green.get("7dd").hex()],
+  boolean: [green.get("6dd").hex(), green.get("7dd").hex()],
+  operator: [yellow.get("6dd").hex(), yellow.get("7dd").hex()],
+  function: [yellow.get("6dd").hex(), yellow.get("7dd").hex()],
+  constant: [green.get("6dd").hex(), green.get("7dd").hex()],
+  class: [cyan.get("6dd").hex(), cyan.get("7dd").hex()],
+  interface: [cyan.get("6dd").hex(), cyan.get("7dd").hex()],
+  type: [cyan.get("6dd").hex(), cyan.get("7dd").hex()],
+  builtin: [green.get("6dd").hex(), green.get("7dd").hex()],
   property: [lightblue.get("6d").hex(), lightblue.get("7d").hex()],
   namespace: [lightblue.get("6d").hex(), lightblue.get("7d").hex()],
   punctuation: [gray.get("3").hex(), gray.get("6").hex()],
-  decorator: [red.get("6d").hex(), red.get("7d").hex()],
-  regex: [red.get("6d").hex(), red.get("7d").hex()],
+  decorator: [red.get("6dd").hex(), red.get("7dd").hex()],
+  regex: [red.get("6dd").hex(), red.get("7dd").hex()],
 
   gray: [gray.get("3").hex(), gray.get("6").hex()],
   green: [green.get("5d").hex(), green.get("7d").hex()],
@@ -68,5 +65,5 @@ export const WaverThemes = {
   red: [red.get("5d").hex(), red.get("7d").hex()],
   orange: [orange.get("5d").hex(), orange.get("7d").hex()],
   yellow: [yellow.get("5d").hex(), yellow.get("7d").hex()],
-  magenta: [pink.get("5d").hex(), pink.get("7d").hex()],
+  magenta: [magenta.get("5d").hex(), magenta.get("7d").hex()],
 } satisfies Record<string, [string, string] | string>;
