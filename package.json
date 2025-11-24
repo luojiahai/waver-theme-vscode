@@ -3,14 +3,14 @@
   "name": "waver-theme",
   "displayName": "Waver Theme",
   "description": "Waver theme for VSCode",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "packageManager": "pnpm@10.20.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luojiahai/waver-vscode-theme.git"
+    "url": "https://github.com/luojiahai/waver-theme-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/luojiahai/waver-vscode-theme/issues"
+    "url": "https://github.com/luojiahai/waver-theme-vscode/issues"
   },
   "keywords": [
     "theme",
