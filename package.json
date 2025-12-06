@@ -3,7 +3,7 @@
   "name": "waver-theme",
   "displayName": "Waver Theme",
   "description": "Waver theme for VSCode",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "packageManager": "pnpm@10.23.0",
   "repository": {
     "type": "git",
@@ -65,7 +65,7 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.47.0",
-    "waver-color": "^0.1.2"
+    "waver-color": "^0.1.4"
   },
   "preview": true
 }
