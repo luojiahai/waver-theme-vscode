@@ -319,7 +319,7 @@
         "punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#846D4090"
+        "foreground": "#846D4077"
       }
     },
     {
@@ -327,7 +327,7 @@
         "punctuation.support.type.property-name"
       ],
       "settings": {
-        "foreground": "#406D8490"
+        "foreground": "#406D8477"
       }
     },
     {

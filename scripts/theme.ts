@@ -5,24 +5,27 @@ import { createThemeHelpers } from "./helper";
 export default function getTheme(options: GetThemeOptions) {
   const { pick, v, colors } = createThemeHelpers(options);
 
-  const primary = v("primary");
   const foreground = v("foreground");
-  const activeForeground = v("activeForeground");
   const secondaryForeground = v("secondaryForeground");
+  const activeForeground = v("activeForeground");
+  const primary = v("primary");
+
   const border = v("border");
   const background = v("background");
   const activeBackground = v("activeBackground");
+
+  const punctuation = v("punctuation");
+
   const selectionBackground = v("selectionBackground");
   const selectionBackgroundActive = v("selectionBackgroundActive");
   const selectionBackgroundInactive = v("selectionBackgroundInactive");
-  const punctuation = v("punctuation");
 
   const theme = {
     name: options.name,
     base: pick({ light: "vs", dark: "vs-dark" }),
     colors: {
       focusBorder: "#00000000",
-      foreground: foreground,
+      foreground,
       descriptionForeground: secondaryForeground,
       errorForeground: v("red"),
 
@@ -410,13 +413,13 @@ export default function getTheme(options: GetThemeOptions) {
       {
         scope: ["punctuation.definition.string"],
         settings: {
-          foreground: v("string", "90"),
+          foreground: v("string", "77"),
         },
       },
       {
         scope: ["punctuation.support.type.property-name"],
         settings: {
-          foreground: v("property", "90"),
+          foreground: v("property", "77"),
         },
       },
       {
